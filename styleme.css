@@ -1,0 +1,21 @@
+.title {
+    color: black ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#aboutme{
+    color: #0064ab;
+}
+body {
+    background-color:#e1eded ;
+}
+
+#favMovies {
+color:#0064ab;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#classes{
+    color: #0064ab;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
