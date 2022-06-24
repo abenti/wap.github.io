@@ -1,0 +1,51 @@
+#divBody {
+  border: 1px solid black;
+  height: 550px;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+table.table.table-bordered {
+  width: 820px;
+}
+#nav {
+  margin-top: 10px;
+  border: 1px solid black;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 820px;
+}
+
+.pList {
+  margin-left: 50px;
+}
+#pTable table {
+  margin-right: 50px;
+}
+.table {
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 1px solid black;
+}
+.sCart {
+  margin-left: 50px;
+}
+thead,
+tr {
+  margin-right: 100px;
+}
+
+#logout {
+  border: 1px solid black;
+}
+
+#placeOrder {
+  margin-left: 610px;
+}
+#home {
+  max-width: 50px;
+}
+#total {
+  margin-left: 610px;
+  margin-bottom: 10px;
+}

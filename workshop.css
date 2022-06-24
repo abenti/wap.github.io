@@ -1,0 +1,46 @@
+body {
+    border: 1px solid greenyellow;
+}
+.wReg, .dropdownList {
+    display: inline;
+    margin-left: 5px;
+}
+.regText {
+    margin-top: 10px;
+}
+#lunch {
+    margin-left: 100px;
+}
+#fName {
+    margin-top: 10px;
+}
+#fText {
+    margin-left: 70px;
+}
+#lName {
+    margin-top: 10px;
+}
+#meal {
+    margin-left: 100px;
+}
+#comp {
+    margin-top: 10px;
+}
+#address {
+    margin-top: 10px;
+}
+#city {
+    margin-top: 10px;
+}
+#state {
+    margin-top: 10px;
+}
+#stateList {
+    margin-left: 50px;
+}
+#country {
+    margin-top: 10px;
+}
+#countryList {
+    margin-left: 50px;
+}

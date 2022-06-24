@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="shopping.css" type="text/css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/4844dcb69c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="divBody">
+      <div id="nav">
+        <nav class="nav nav-pills flex-column flex-sm-row">
+          <img id="home" src="home.PNG" alt="home" />
+          <a class="flex-sm-fill text-sm-center nav-link" href="#"
+            >Welcome, Amanuel</a
+          >
+          <a id="logout" class="flex-sm-fill text-sm-center nav-link" href="#"
+            >Logout</a
+          >
+        </nav>
+      </div>
+      <div class="pList">Product List</div>
+      <div class="pTable">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Price</th>
+              <th scope="col">Stock</th>
+              <th scope="col">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row">Node.js</td>
+              <td>9.99</td>
+              <td>8</td>
+              <td id="Cart">
+                <img src="shoppingcart.png" width="30px" alt="cart" />
+              </td>
+            </tr>
+            <tr>
+              <td scope="row">React</td>
+              <td>9.99</td>
+              <td>5</td>
+              <td id="Cart">
+                <img src="shoppingcart.png" width="30px" alt="cart" />
+              </td>
+            </tr>
+            <tr>
+              <td scope="row">Angular</td>
+              <td>29.99</td>
+              <td>13</td>
+              <td id="Cart">
+                <img src="shoppingcart.png" width="30px" alt="cart" />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="sCart">Shopping Cart</div>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Total</th>
+            <th scope="col">Quantity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="row">Node.js</td>
+            <td>9.99</td>
+            <td>9.99</td>
+            <td id="counter"> <img src="counter.png" width="70px" alt="cart" />
+            </td></td>
+          </tr>
+          <tr>
+            <td scope="row">Angular</td>
+            <td>29.99</td>
+            <td>290.99</td>
+            <td id="counter"> <img src="counter.png" width="70px" alt="cart" />
+            </td></td>
+          </tr>
+        </tbody>
+      </table>
+      <div id="total" class="container-fluid">Total: 300.98</div>
+      <button id="placeOrder" type="button" class="btn btn-secondary">
+        Place Order
+      </button>
+    </div>
+  </body>
+</html>
