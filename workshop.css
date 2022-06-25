@@ -1,46 +1,116 @@
 body {
-    border: 1px solid greenyellow;
+  height: 726px;
 }
-.wReg, .dropdownList {
-    display: inline;
-    margin-left: 5px;
+#header {
+  background-color: aquamarine;
+}
+.wReg {
+  display: inline-block;
+  margin-left: 5px;
+}
+#dropdownList {
+  margin-left: 50px;
 }
 .regText {
-    margin-top: 10px;
+  margin-top: 30px;
 }
 #lunch {
-    margin-left: 100px;
+  margin-left: 100px;
 }
 #fName {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 #fText {
-    margin-left: 70px;
+  margin-left: 70px;
 }
 #lName {
-    margin-top: 10px;
+  margin-top: 10px;
+}
+#lText {
+  margin-left: 72px;
 }
 #meal {
-    margin-left: 100px;
+  margin-left: 100px;
+}
+#mealList {
+  margin-left: 20px;
 }
 #comp {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 #address {
-    margin-top: 10px;
+  margin-top: 10px;
+}
+#cID {
+  margin-left: 115px;
+}
+#tAdd {
+  margin-left: 90px;
+  margin-top: 10px;
 }
 #city {
-    margin-top: 10px;
+  margin-top: 10px;
+}
+#eText {
+  margin-left: 106px;
+  margin-top: 10px;
+}
+#pText {
+  margin-left: 37px;
+  margin-top: 10px;
 }
 #state {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 #stateList {
-    margin-left: 50px;
+  margin-left: 110px;
 }
 #country {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 #countryList {
-    margin-left: 50px;
+  margin-left: 195px;
+}
+input {
+  margin-right: 500px;
+}
+#pay {
+  margin-left: 98px;
+}
+#pDetails {
+  margin-left: 445px;
+  margin-top: 10px;
+}
+#checkbox1 {
+  margin-left: 70px;
+}
+#checkbox2,
+#checkbox3 {
+  margin-left: 625px;
+}
+#ddCheck {
+  margin-left: 455px;
+}
+#ddCheck1 {
+  margin-left: 455px;
+}
+#ddCheck2 {
+  margin-left: 455px;
+}
+#ddText {
+  margin-left: 50px;
+}
+#payaText {
+  margin-left: 91.5px;
+}
+.subButtons {
+  background-color: aquamarine;
+  margin-top: 50px;
+}
+#b1,
+#b2 {
+  margin-left: 400px;
+}
+#b2 {
+  margin-left: 0;
 }

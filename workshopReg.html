@@ -1,98 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Workshop Registration</title>
-    <link rel="stylesheet" href="workshop.css" type="text/css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-</head>
+    <link rel="stylesheet" href="workshop.css" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body>
+  <body>
     <div id="header">
-        <header class="wReg">Workshop Regstration</header>
-        <select name="More actions" id="dropdownList">
-            <option value="moreactions">More Actions</option>
-            <option value="login">Login</option>
-            <option value="aboutus">About Us</option>
-            <option value="signout">Sign Out</option>
-        </select>
+      <header class="wReg">Workshop Regstration</header>
+      <select name="More actions" id="dropdownList">
+        <option value="moreactions">More Actions</option>
+        <option value="login">Login</option>
+        <option value="aboutus">About Us</option>
+        <option value="signout">Sign Out</option>
+      </select>
     </div>
+
     <div class="regText">Register now while seats are available!</div>
 
     <div>
-    <form action="" method="post">
-        <label id="fName" for="fName">First Name: </label>
-        <input id="fText" type="text">
+      <form action="fName" method="post" id="names">
+        <label id="fName">First Name: </label>
+        <input id="fText" type="text" />
         <u id="lunch">Lunch</u>
+      </form>
     </div>
-        <div>
-            <label id="lName" for="lName">Last Name: </label>
-            <input id="fText" type="text">
-            <label id="meal" for="meal">Meal Preference</label>
-            <select name="list" id="mealList">
-                <option value="Select">Select</option>
-                <option value="veg">Vegeterian</option>
-                <option value="meat">Non-Vegetarian</option>
-           
-            </select>
-
-        </div>
-        <div>
-            <label id="comp" for="comp">Company/Institution: </label>
-            <input id="fText" type="text">
-            <u id="pay">Payment Details</u>
-
-        </div>
-        <div>
-            <label id="address" for="address">Address: </label>
-            <textarea name="address" id="address" cols="30" rows="5" margin-left: ></textarea>
-        </div>
-    
-        <div>
-            <label id="city" for="city">City: </label>
-            <input id="fText" type="text">
-        </div>
-    
-        <div>
-            <label id="state" for="state">State/Province/Region: </label>
-            <select name="list" id="stateList">
-                <option value="Select">Select</option>
-                <option value="CO">CO</option>
-                <option value="MD">MD</option>
-                <option value="NC">NC</option>
-            </select>
-        </div>
-        <div>
-            <label id="country" for="country">Country: </label>
-            <select name="list" id="countryList">
-                <option value="Select">Select</option>
-                <option value="US">US</option>
-                <option value="Ethiopia">Ethiopia</option>
-                <option value="Russia">Russia</option>
-                <option value="China">China</option>
-                <option value="Ukraine">Ukraine</option>
-            </select>
-        </div>
-
-        <div>
-            <label id="email" for="email">Email: </label>
-            <input id="fText" type="text">
-        </div>
-
-        <div>
-            <label id="Phone Number" for="Phone Number">Phone Number: </label>
-            <input id="fText" type="text">
-        </div>
-
-
-    </form>
-
-
+    <div>
+      <label id="lName">Last Name: </label>
+      <input id="lText" type="text" />
+      <label id="meal">Meal Preference</label>
+      <select name="list" id="mealList">
+        <option value="Select">Select</option>
+        <option value="veg">Vegeterian</option>
+        <option value="meat">Non-Vegetarian</option>
+      </select>
     </div>
-</body>
+    <div>
+      <label id="comp1">Company/Institution: </label>
+      <input id="comp" type="text" />
+      <u id="pay">Payment Details</u>
+    </div>
+    <div>
+      <label id="pDetails">Payment Mode</label>
+      <input id="checkbox1" type="checkbox" /> Cash
+      <div><input id="checkbox2" type="checkbox" /> Cheque</div>
+      <input id="checkbox3" type="checkbox" /> Demand Draft
+    </div>
+    <div>
+      <label id="address">Address: </label>
+      <textarea name="address" id="tAdd" cols="22" rows="3"></textarea>
+    </div>
+    <div>
+      <label id="ddCheck1">DD/Cheque No.: </label>
+      <input id="ddText" type="text" />
+    </div>
+    <div>
+      <label id="city">City: </label>
+      <input id="cID" type="text" />
+    </div>
+    <div>
+      <label id="ddCheck">Drawn on (Bank Name):</label>
+      <input id="bText" type="text" />
+    </div>
+    <div>
+      <label id="state">State/Province/Region: </label>
+      <select name="list" id="stateList">
+        <option value="Select">Select</option>
+        <option value="CO">CO</option>
+        <option value="MD">MD</option>
+        <option value="NC">NC</option>
+      </select>
+    </div>
+    <div>
+      <label id="ddCheck2">Payable at: </label>
+      <input id="payaText" type="text" />
+    </div>
+    <div>
+      <label id="country">Country: </label>
+      <select name="list" id="countryList">
+        <option value="Select">Select</option>
+        <option value="US">US</option>
+        <option value="Ethiopia">Ethiopia</option>
+        <option value="Russia">Russia</option>
+        <option value="China">China</option>
+        <option value="Ukraine">Ukraine</option>
+      </select>
+    </div>
 
+    <div>
+      <label id="email">Email: </label>
+      <input id="eText" type="text" />
+    </div>
+
+    <div>
+      <label id="PhoneNumber">Phone Number: </label>
+      <input id="pText" type="text" />
+    </div>
+
+    <div class="subButtons">
+      <button id="b1">Submit</button>
+      <button id="b2">Reset</button>
+    </div>
+  </body>
+
+  <div id="checkers">
+    <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fabenti.github.io%2Fwap.github.io%2Fshopping.html">
+      <img src="images.jpeg" alt="checker" width="50">
+    </a>
+  
+    <a
+      href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fabenti.github.io%2Fwap.github.io%2Fshopping.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+      <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+  
+  </div>
 </html>
