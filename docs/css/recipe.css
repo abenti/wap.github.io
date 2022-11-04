@@ -1,0 +1,37 @@
+
+.mainHeader {
+    text-align: center;
+    color: #A4A400;
+    font-family: Lucida Sans Unicode;
+    background-color: #F0F0F0;
+    font-size: 22pt;
+}
+
+.titleSection {
+    font-size: 18pt;
+    color: #A4A400;
+    font-family: Lucida Sans Unicode;
+    background-color: #F0F0F0;
+}
+.descriptions {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#comments {
+    background-color: #fffda3;
+}
+
+.links {
+    color: #A4A400;
+    text-decoration: none;
+
+}
+
+#bulletPoints {
+    font-family: Georgia,  serif;
+    font-size: 11pt;
+}
+
+.footerClass {
+    text-align: right;
+}
+
