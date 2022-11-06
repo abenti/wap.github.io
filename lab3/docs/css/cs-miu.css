@@ -1,0 +1,16 @@
+body {
+    background-color: #f3f3f3;
+}
+#welcomeHeader {
+    background-color: #374777;
+}
+#loginText {
+    font-size: smaller;
+}
+.footerBG {
+    background-color: #e6e6e6;
+}
+#separator {
+    border-left: solid 1px;
+    border-color: lightgray;
+}
